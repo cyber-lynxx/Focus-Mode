@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <!--Adding the Google Font "Overlock"-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!--Linking the stylesheet-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--Linking the JavaScript files-->
+        <script src="time.js" defer></script>
+        <script src="url.js" defer></script>
+        <script src="fidget.js" defer></script>
+
+        <title>Focus Mode</title>
+    </head>
+    <body class="body" style="display: flex; flex-direction: column;">
+        <h1 style="align-self: center;">Focus Mode On 🔇</h1>
+        <h3 id="time" class="info">Current Time Unavailable</h3>
+
+        <!--Links to necessary external websites-->
+        <a href="https://chess.com/home" class="info" style="color: rgb(3, 66, 45);">chess.com</a>
+
+        <a href="https://desmos.com/scientific" class="info" style="color: rgb(3, 66, 45);">Desmos Scientific Calculator</a>
+        
+        <a href="https://desmos.com/calculator" class="info" style="color: rgb(3, 66, 45);">Desmos Graphing Calculator</a>
+
+        <!--Input the URL you want to go to-->
+        <div class="inputURL">
+            <input id="url_input" type="text" placeholder="Type URL here" style="width: 10%; margin-left: 30%;">
+
+            <button onclick="goToWebsite()" style="width: 5%;">Submit</button>
+        </div>
+
+        <!--30 Minute timer counting down to the next break-->
+        <h3 id="break_timer" class="break_timer">Break Timer Unavailable</h3>
+
+        <h3 id="click_count" style="top: 50%; position: absolute; right: 30.5%; margin-bottom: 0%;">Click Count: 0</h3>
+
+        <button style="height: 10dvh; width: 30dvh; top: 60%; position: absolute; right: 26.5%; margin-bottom: 2%;" onclick="clickFidget()">Fidget</button>
+
+    </body>
+</html>
