@@ -10,3 +10,10 @@ So I made a webpage with a green background, which makes it more comfortable to 
 If you are the type of person who enjoys having a fidget, there is a built in clicker fidget, but to avoid you getting distracted, there is a threshold at 500 clicks, where an alert tells you to refocus. The threshold is that high because if it were lower it would accidentally lecture someone innocently clicking it.
 
 There is also a 30 minute timer, and when it is finished, it suggests that you take a break.
+
+### Link
+https://focus-mode-l740.onrender.com
+Hosted on Render
+
+### Codepad Project
+https://codepad.app/edit/5826j1d3
