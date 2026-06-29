@@ -1,0 +1,79 @@
+.body {
+    background-color: rgb(84, 140, 131);
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.overlock-regular {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.overlock-bold {
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.overlock-black {
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.overlock-regular-italic {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.overlock-bold-italic {
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.overlock-black-italic {
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+::selection {
+    background-color: rgb(155, 198, 184);
+    color: rgb(2, 66, 44);
+}
+
+.info {
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+
+.break_timer {
+    position: absolute;
+    top: 23%;
+    right: 25%;
+    margin-bottom: 2%;
+}
+
+.inputURL {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    color: rgb(19, 52, 41);
+    background-color: rgb(96, 169, 145);
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 3px;
+    border-style: ridge;
+    border-color: rgb(7, 54, 38);
+}
